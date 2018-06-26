@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Page1.qml</file>
+        <file>Page1Form.ui.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>Ampermetr.qml</file>
+        <file>images/icon-back.png</file>
+        <file>images/icon-go.png</file>
+        <file>images/icon-settings.png</file>
+        <file>images/info.png</file>
+        <file>images/needle-light.png</file>
+        <file>images/qt-logo.png</file>
+        <file>images/zoom_in.png</file>
+        <file>images/zoom_out.png</file>
+        <file>CircularGaugeLightStyle.qml</file>
+        <file>AmpermetrMini.qml</file>
+        <file>CircularGaugeMyStyle.qml</file>
+        <file>images/ampermeter-round-background.png</file>
+        <file>images/ampermeter-round-needle.png</file>
+        <file>images/ampermeter-round-needle_shadow.png</file>
+        <file>images/ampermeter-round-overlay.png</file>
+        <file>images/ampermeter-modern-background.png</file>
+        <file>images/ampermeter-modern-background-light.png</file>
+        <file>images/ampermeter-modern-center.png</file>
+        <file>images/ampermeter-modern-center-light.png</file>
+        <file>images/ampermeter-modern-needle.png</file>
+        <file>images/ampermeter-modern-needle_shadow.png</file>
+        <file>images/ampermeter-modern-zones.png</file>
+    </qresource>
+</RCC>
