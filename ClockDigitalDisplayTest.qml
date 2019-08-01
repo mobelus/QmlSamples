@@ -12,8 +12,6 @@ ClockDigitalDisplay
     timerTextColor:  "white"
 
     timerTextSize: 50
-    timerTextRectWidth: root.timerTextSize / 2
-    timerTextRectHeight: root.timerTextSize
     // from out
     //seconds: 0
 }
@@ -22,6 +20,8 @@ ClockDigitalDisplay
 Item
 {
     id : root
+    width: displayRectangle.width
+    height: displayRectangle.height
 
     property bool showTime: true
     property bool showHours: true
@@ -30,20 +30,21 @@ Item
     property date dateTime
     property int seconds: 0
 
-    property color timerTextBackgroundColor: "blue"
-
-    property int timerTextSize: 50
-    property int timerTextRectWidth: root.timerTextSize / 2
-    property int timerTextRectHeight: root.timerTextSize
-
-    property color timerTextColor:  "white"
-
     property int timerTextHrsLeft:  (dateTime.getHours()   < 0) ? 0 : (dateTime.getHours()   / 10 )
     property int timerTextHrsRight: (dateTime.getHours()   < 0) ? 0 : (dateTime.getHours()   % 10 )
     property int timerTextMinLeft:  (dateTime.getMinutes() < 0) ? 0 : (dateTime.getMinutes() / 10 )
     property int timerTextMinRight: (dateTime.getMinutes() < 0) ? 0 : (dateTime.getMinutes() % 10 )
     property int timerTextSecLeft:  (dateTime.getSeconds() < 0) ? 0 : (dateTime.getSeconds() / 10 )
     property int timerTextSecRight: (dateTime.getSeconds() < 0) ? 0 : (dateTime.getSeconds() % 10 )
+
+    property color timerDisplayColor: "black"
+    property color timerTextBackgroundColor: "blue"
+    property color timerTextColor:  "white"
+
+    property int timerTextSize: 50
+
+    readonly property int timerTextRectWidth: root.timerTextSize / 2
+    readonly property int timerTextRectHeight: root.timerTextSize
 
     function refreshTime()
     {
@@ -55,6 +56,7 @@ Item
         secLeft.text  = root.showTime ? String(root.timerTextSecLeft)  : "5";
         secRight.text = root.showTime ? String(root.timerTextSecRight) : "6";
     }
+
 
 
     Timer
@@ -76,11 +78,10 @@ Item
 
     Rectangle
     {
-        x: 16
-        y: 2
+        id: displayRectangle
         width: spinnerLayout.width * 1.1
         height: spinnerLayout.height * 1.5
-        color : "black"
+        color : root.timerDisplayColor
 
         RowLayout
         {
@@ -103,8 +104,6 @@ Item
                 color: root.timerTextBackgroundColor
 
                 visible : root.showHours
-                //opacity: root.showHours ? 1.0 : 0.0
-
 
                 Text
                 {
@@ -113,9 +112,7 @@ Item
                 color: root.timerTextColor;
                 anchors.centerIn: parent
                 }
-
             }
-
 
             Rectangle
             {
@@ -168,7 +165,6 @@ Item
                 }
             }
 
-
             Rectangle
             {
                 width: root.timerTextRectWidth
@@ -201,7 +197,6 @@ Item
 
             //////////////////////////////////////////
 
-
             Rectangle
             {
                 width: root.timerTextRectWidth
@@ -216,7 +211,6 @@ Item
                 anchors.centerIn: parent
                 }
             }
-
 
             Rectangle
             {
