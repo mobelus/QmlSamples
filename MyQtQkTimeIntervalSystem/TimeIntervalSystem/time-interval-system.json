@@ -1,0 +1,266 @@
+{ 
+	"time-interval-system":
+	[
+		{
+			"routeNumber": 11,
+			"stops":
+			[
+				{
+					"station": "Nekrasovka",
+					"timeArrival": "2019-04-23T09:00:00.511Z",
+					"timeDeparture": "2019-04-23T09:00:00.511Z"
+				},
+				{
+					"station": "Lukhmanovskaya",
+					"timeArrival": "2019-04-23T09:03:00.511Z",
+					"timeDeparture": "2019-04-23T09:03:40.511Z"
+				},
+				{
+					"station": "Ulitsa_Dmitrievskogo",
+					"timeArrival": "2019-04-23T09:07:00.511Z",
+					"timeDeparture": "2019-04-23T09:07:40.511Z"
+				},
+				{
+					"station": "Kosino",
+					"timeArrival": "2019-04-23T09:10:00.511Z",
+					"timeDeparture": "2019-04-23T09:10:40.511Z"
+				}
+			]
+		},
+		{
+			"routeNumber": 12,
+			"stops":
+			[
+				{
+					"station": "Kosino",
+					"timeArrival": "2019-04-23T09:11:00.511Z",
+					"timeDeparture": "2019-04-23T09:11:40.511Z"
+				},
+				{
+					"station": "Ulitsa_Dmitrievskogo",
+					"timeArrival": "2019-04-23T09:14:00.511Z",
+					"timeDeparture": "2019-04-23T09:14:40.511Z"
+				},
+				{
+					"station": "Lukhmanovskaya",
+					"timeArrival": "2019-04-23T09:18:00.511Z",
+					"timeDeparture": "2019-04-23T09:18:40.511Z"
+				},
+				{
+					"station": "Nekrasovka",
+					"timeArrival": "2019-04-23T09:21:00.511Z",
+					"timeDeparture": "2019-04-23T09:21:40.511Z"
+				}
+			]
+		},
+		{
+			"routeNumber": 15,
+			"stops":
+			[
+				{
+					"station": "Nekrasovka",
+					"timeArrival": "2019-04-23T09:02:00.511Z",
+					"timeDeparture": "2019-04-23T09:02:00.511Z"
+				},
+				{
+					"station": "Lukhmanovskaya",
+					"timeArrival": "2019-04-23T09:05:00.511Z",
+					"timeDeparture": "2019-04-23T09:05:40.511Z"
+				},
+				{
+					"station": "Ulitsa_Dmitrievskogo",
+					"timeArrival": "2019-04-23T09:09:00.511Z",
+					"timeDeparture": "2019-04-23T09:09:40.511Z"
+				},
+				{
+					"station": "Kosino",
+					"timeArrival": "2019-04-23T09:12:00.511Z",
+					"timeDeparture": "2019-04-23T09:12:40.511Z"
+				}
+			]
+		},
+		{
+			"routeNumber": 16,
+			"stops":
+			[
+				{
+					"station": "Kosino",
+					"timeArrival": "2019-04-23T09:13:00.511Z",
+					"timeDeparture": "2019-04-23T09:13:40.511Z"
+				},
+				{
+					"station": "Ulitsa_Dmitrievskogo",
+					"timeArrival": "2019-04-23T09:16:00.511Z",
+					"timeDeparture": "2019-04-23T09:16:40.511Z"
+				},
+				{
+					"station": "Lukhmanovskaya",
+					"timeArrival": "2019-04-23T09:20:00.511Z",
+					"timeDeparture": "2019-04-23T09:20:40.511Z"
+				},
+				{
+					"station": "Nekrasovka",
+					"timeArrival": "2019-04-23T09:23:00.511Z",
+					"timeDeparture": "2019-04-23T09:23:40.511Z"
+				}
+			]
+		},
+		{
+			"routeNumber": 17,
+			"stops":
+			[
+				{
+					"station": "Nekrasovka",
+					"timeArrival": "2019-04-23T09:04:00.511Z",
+					"timeDeparture": "2019-04-23T09:04:00.511Z"
+				},
+				{
+					"station": "Lukhmanovskaya",
+					"timeArrival": "2019-04-23T09:07:00.511Z",
+					"timeDeparture": "2019-04-23T09:07:40.511Z"
+				},
+				{
+					"station": "Ulitsa_Dmitrievskogo",
+					"timeArrival": "2019-04-23T09:11:00.511Z",
+					"timeDeparture": "2019-04-23T09:11:40.511Z"
+				},
+				{
+					"station": "Kosino",
+					"timeArrival": "2019-04-23T09:14:00.511Z",
+					"timeDeparture": "2019-04-23T09:14:40.511Z"
+				}
+			]
+		},
+		{
+			"routeNumber": 18,
+			"stops":
+			[
+				{
+					"station": "Kosino",
+					"timeArrival": "2019-04-23T09:15:00.511Z",
+					"timeDeparture": "2019-04-23T09:15:40.511Z"
+				},
+				{
+					"station": "Ulitsa_Dmitrievskogo",
+					"timeArrival": "2019-04-23T09:18:00.511Z",
+					"timeDeparture": "2019-04-23T09:18:40.511Z"
+				},
+				{
+					"station": "Lukhmanovskaya",
+					"timeArrival": "2019-04-23T09:22:00.511Z",
+					"timeDeparture": "2019-04-23T09:22:40.511Z"
+				},
+				{
+					"station": "Nekrasovka",
+					"timeArrival": "2019-04-23T09:25:00.511Z",
+					"timeDeparture": "2019-04-23T09:25:40.511Z"
+				}
+			]
+		},
+		{
+			"routeNumber": 21,
+			"stops":
+			[
+				{
+					"station": "Nekrasovka",
+					"timeArrival": "2019-04-23T09:06:00.511Z",
+					"timeDeparture": "2019-04-23T09:06:00.511Z"
+				},
+				{
+					"station": "Lukhmanovskaya",
+					"timeArrival": "2019-04-23T09:09:00.511Z",
+					"timeDeparture": "2019-04-23T09:09:40.511Z"
+				},
+				{
+					"station": "Ulitsa_Dmitrievskogo",
+					"timeArrival": "2019-04-23T09:13:00.511Z",
+					"timeDeparture": "2019-04-23T09:13:40.511Z"
+				},
+				{
+					"station": "Kosino",
+					"timeArrival": "2019-04-23T09:16:00.511Z",
+					"timeDeparture": "2019-04-23T09:16:40.511Z"
+				}
+			]
+		},
+		{
+			"routeNumber": 22,
+			"stops":
+			[
+				{
+					"station": "Kosino",
+					"timeArrival": "2019-04-23T09:17:00.511Z",
+					"timeDeparture": "2019-04-23T09:17:40.511Z"
+				},
+				{
+					"station": "Ulitsa_Dmitrievskogo",
+					"timeArrival": "2019-04-23T09:20:00.511Z",
+					"timeDeparture": "2019-04-23T09:20:40.511Z"
+				},
+				{
+					"station": "Lukhmanovskaya",
+					"timeArrival": "2019-04-23T09:24:00.511Z",
+					"timeDeparture": "2019-04-23T09:24:40.511Z"
+				},
+				{
+					"station": "Nekrasovka",
+					"timeArrival": "2019-04-23T09:27:00.511Z",
+					"timeDeparture": "2019-04-23T09:27:40.511Z"
+				}
+			]
+		},
+		{
+			"routeNumber": 25,
+			"stops":
+			[
+				{
+					"station": "Nekrasovka",
+					"timeArrival": "2019-04-23T09:08:00.511Z",
+					"timeDeparture": "2019-04-23T09:08:00.511Z"
+				},
+				{
+					"station": "Lukhmanovskaya",
+					"timeArrival": "2019-04-23T09:11:00.511Z",
+					"timeDeparture": "2019-04-23T09:11:40.511Z"
+				},
+				{
+					"station": "Ulitsa_Dmitrievskogo",
+					"timeArrival": "2019-04-23T09:15:00.511Z",
+					"timeDeparture": "2019-04-23T09:15:40.511Z"
+				},
+				{
+					"station": "Kosino",
+					"timeArrival": "2019-04-23T09:18:00.511Z",
+					"timeDeparture": "2019-04-23T09:18:40.511Z"
+				}
+			]
+		},
+		{
+			"routeNumber": 26,
+			"stops":
+			[
+				{
+					"station": "Kosino",
+					"timeArrival": "2019-04-23T09:19:00.511Z",
+					"timeDeparture": "2019-04-23T09:19:40.511Z"
+				},
+				{
+					"station": "Ulitsa_Dmitrievskogo",
+					"timeArrival": "2019-04-23T09:22:00.511Z",
+					"timeDeparture": "2019-04-23T09:22:40.511Z"
+				},
+				{
+					"station": "Lukhmanovskaya",
+					"timeArrival": "2019-04-23T09:26:00.511Z",
+					"timeDeparture": "2019-04-23T09:26:40.511Z"
+				},
+				{
+					"station": "Nekrasovka",
+					"timeArrival": "2019-04-23T09:29:00.511Z",
+					"timeDeparture": "2019-04-23T09:29:40.511Z"
+				}
+			]
+		}
+	]
+}
+
