@@ -7,7 +7,7 @@ Many small samples of qml projects
 http://www.qtcentre.org/threads/64983-QML-Toggle-Button
 
 
-### ListView with QSortFilterProxyModel example
+### QML ListView with QSortFilterProxyModel example
 
 https://github.com/arunpkqt/QMLSortFilterList
 
